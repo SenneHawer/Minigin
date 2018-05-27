@@ -14,8 +14,7 @@ namespace dae
 		void ActivateNextScene();
 		void ActivateSceneByName(std::string sceneName);
 
-		void Update(float deltaTime);
-		void Render();
+		void Update();
 
 	private:
 		std::vector<std::shared_ptr<Scene>> mScenes;

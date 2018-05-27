@@ -6,28 +6,10 @@
 #include <algorithm>
 
 
-void dae::SceneManager::Update(float deltaTime)
+void dae::SceneManager::Update()
 {
 	if (m_pActiceScene)
 		m_pActiceScene->RootUpdate();
-
-	UNREFERENCED_PARAMETER(deltaTime);
-
-	for(auto scene : mScenes)
-	{
-		scene->Update();
-	}
-}
-
-void dae::SceneManager::Render()
-{
-	if (m_pActiceScene)
-		m_pActiceScene->RootRender();
-
-	for (const auto scene : mScenes)
-	{
-		scene->Render();
-	}
 }
 
 void dae::SceneManager::ActivateScene(std::shared_ptr<BaseScene> scene)

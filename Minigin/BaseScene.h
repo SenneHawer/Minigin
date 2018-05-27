@@ -16,7 +16,6 @@ public:
 
 	void RootInitialize();
 	void RootUpdate();
-	void RootRender();
 	std::string GetName();
 
 protected:

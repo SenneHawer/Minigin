@@ -91,27 +91,15 @@ void dae::Minigin::Run()
 		auto& input = InputManager::GetInstance();
 
 		bool doContinue = true;
-		auto lastTime = std::chrono::high_resolution_clock::now();
-		float lag = 0.0f;
 
 		while (doContinue)
 		{
-			//Handle Time
-			auto currentTime = std::chrono::high_resolution_clock::now();
-			float deltaTime = std::chrono::duration<float, std::milli>(currentTime - lastTime).count();
-			lastTime = currentTime;
-			lag += deltaTime;
-			
 			//Check Continue
 			doContinue = input.ProcessInput();
 			input.Update();
 
-			while (lag >= msPerFrame)
-			{
-				sceneManager.Update(deltaTime);
-				lag -= msPerFrame;
-			}
-			UNREFERENCED_PARAMETER(renderer);
+			sceneManager.Update();
+
 			renderer.Render();
 		}
 	}

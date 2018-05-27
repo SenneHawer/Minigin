@@ -57,13 +57,6 @@ void BaseScene::RootUpdate()
 	//User Update
 	this->Update(m_pGameContext);
 }
-void BaseScene::RootRender()
-{
-	//for (auto obj : m_pChildObjects)
-	//{
-	//	obj->Render();
-	//}
-}
 
 std::string BaseScene::GetName()
 {
