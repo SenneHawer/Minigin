@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{ac7dcdc1-81dd-4344-aa35-d18fbf9c5739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[Trash]">
+      <UniqueIdentifier>{792a6b09-ebdd-4bf4-96fc-60a646564a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{bd2dbcee-8f68-4608-ad58-a990f9c42247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{76e80693-751a-4827-bf03-e7aea4420fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Context">
+      <UniqueIdentifier>{12ecf666-9f88-4c5b-95bc-9360e50b7abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{c9d348cb-fdb1-4603-8bab-5925c4e83233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{5f49fcdd-9900-431b-af93-36745fe008cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame">
+      <UniqueIdentifier>{f8363560-d4f2-4f06-a3b7-907e8d32ee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame\Pacman">
+      <UniqueIdentifier>{2771583e-b401-4f4c-851c-1ff1fe34402d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame\PickUp">
+      <UniqueIdentifier>{e0e04faa-18b7-4e7e-8c6e-ccf427ff71db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame\Level">
+      <UniqueIdentifier>{e435caca-c5c2-4f6f-8e92-cda36784bea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame\Scenes">
+      <UniqueIdentifier>{7ccce8df-ed80-4b67-a222-b78dc3a2c1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacmanGame\Ghost">
+      <UniqueIdentifier>{e544b9f4-21b0-4bae-9cd0-034465e5f07c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minigin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>[Trash]</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SenStructs.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestScene.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTestScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.h">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePickUp.h">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>PacmanGame\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTile.h">
+      <Filter>PacmanGame\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpHolder.h">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>PacmanGame\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsCounter.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTileHolder.h">
+      <Filter>PacmanGame\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossingHolder.h">
+      <Filter>PacmanGame\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="PointPickUp.h">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPickUp.h">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacwoman.h">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghostman.h">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGhostScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossing.h">
+      <Filter>PacmanGame\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="WinningScene.h">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiniginPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minigin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>[Trash]</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContext.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestScene.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTestScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePickUp.cpp">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>PacmanGame\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTile.cpp">
+      <Filter>PacmanGame\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpHolder.cpp">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>PacmanGame\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsCounter.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTileHolder.cpp">
+      <Filter>PacmanGame\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossingHolder.cpp">
+      <Filter>PacmanGame\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="PointPickUp.cpp">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPickUp.cpp">
+      <Filter>PacmanGame\PickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacwoman.cpp">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghostman.cpp">
+      <Filter>PacmanGame\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGhostScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossing.cpp">
+      <Filter>PacmanGame\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="WinningScene.cpp">
+      <Filter>PacmanGame\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Minigin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
